@@ -1,3 +1,5 @@
+import {fsync} from "fs";
+
 
 async function schrodinger() {
     return new Promise((resolve, reject) => {
