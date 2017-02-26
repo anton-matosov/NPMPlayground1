@@ -7,10 +7,10 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch via NPM",
-            "runtimeExecutable": "npm",
+            "name": "Launch via Yarn",
+            "runtimeExecutable": "yarn",
             "windows": {
-                "runtimeExecutable": "npm.cmd"
+                "runtimeExecutable": "yarn.cmd"
             },
             "runtimeArgs": [
                 "start"
