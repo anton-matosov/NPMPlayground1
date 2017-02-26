@@ -1,0 +1,27 @@
+{
+  "name": "npm-playground-1",
+  "version": "1.0.0",
+  "description": "playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "# echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anton-matosov/NPMPlayground1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anton-matosov/NPMPlayground1/issues"
+  },
+  "homepage": "https://github.com/anton-matosov/NPMPlayground1#readme",
+  "dependencies": {
+    "asyncawait": "^1.0.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0"
+  }
+}
