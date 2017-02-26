@@ -1,5 +1,3 @@
-import {async, await} from "asyncawait";
-
 
 async function schrodinger() {
     return new Promise((resolve, reject) => {
@@ -10,10 +8,15 @@ async function schrodinger() {
     })
 }
 
-try {
-    console.log(await schrodinger())
-    // -> ‘alive’
-} catch (err) {
-    console.log(err)
-    // -> ‘dead’
+async function ff () {
+
+    try {
+        console.log(await schrodinger())
+        // -> ‘alive’
+    } catch (err) {
+        console.log(err)
+        // -> ‘dead’
+    }
 }
+
+ff()
