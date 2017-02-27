@@ -6,7 +6,8 @@
   "scripts": {
     "test": "exit 0",
     "prestart": "babel src -d lib",
-    "start": "node lib/index.js"
+    "start": "node lib/index.js",
+    "debug": "babel-node --debug  --debug-brk src/index.js"
   },
   "repository": {
     "type": "git",
