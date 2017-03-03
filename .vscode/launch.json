@@ -8,9 +8,9 @@
             "type": "node2",
             "request": "launch",
             "name": "Launch",
-            "program": "${workspaceRoot}/lib/index.js",
+            "program": "${workspaceRoot}/src/index.js",
             "cwd": "${workspaceRoot}",
-            "preLaunchTask": "build"
+            "_preLaunchTask": "build"
         }
     ]
 }
