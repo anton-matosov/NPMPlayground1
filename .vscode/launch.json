@@ -11,6 +11,25 @@
             "program": "${workspaceRoot}/src/index.js",
             "cwd": "${workspaceRoot}",
             "_preLaunchTask": "build"
+        },
+        {
+            "type": "node2",
+            "request": "launch",
+            "name": "Launch with Babel",
+            "program": "${workspaceRoot}/dist/index.js",
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "build"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug Mocha",
+            "runtimeExecutable": "yarn",
+            "runtimeArgs": [
+                "run",
+                "test-debug"
+            ],
+            "port": 5858
         }
     ]
 }
