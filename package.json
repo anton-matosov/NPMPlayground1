@@ -34,6 +34,7 @@
     "babel-preset-es2016": "6.x",
     "babel-preset-es2017": "6.x",
     "babel-preset-react-native": "^1.9.1",
+    "bitbar-webpack-progress-plugin": "^0.1.3",
     "expect.js": "^0.3.1",
     "nyc": "^10.1.2",
     "webpack": "2.x"
